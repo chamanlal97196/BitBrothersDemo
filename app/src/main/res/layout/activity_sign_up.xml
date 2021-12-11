@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    >
+
+
+
+
+ <LinearLayout
+     android:id="@+id/ll1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="50dp"
+     android:orientation="vertical"
+     >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="New User! Register Now.."
+    android:textStyle="bold"
+    android:textColor="@color/purple_700"
+    android:textAlignment="center"
+    android:gravity="center_horizontal" />
+
+     <EditText
+         android:id="@+id/username"
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:hint="Username"
+         android:background="@color/white"
+         android:padding="4dp"
+         android:layout_marginBottom="6dp"
+         />
+     <EditText
+         android:id="@+id/email"
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:hint="Email"
+         android:background="@color/white"
+         android:padding="4dp"
+         android:layout_marginBottom="6dp"
+         />
+
+     <EditText
+         android:id="@+id/password"
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:hint="Password"
+         android:background="@color/white"
+         android:padding="4dp"
+         android:ems="10"
+         android:layout_marginBottom="6dp"
+         android:inputType="textPassword"
+         />
+
+
+
+     <Button
+         android:id="@+id/btnsignUp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Sign Up"
+         android:padding="16dp"
+         />
+
+     <TextView
+         android:id="@+id/alreadytxt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:text="Already have Account?,Click Here"
+         android:textColor="#B32626"
+         android:textStyle="italic" />
+ </LinearLayout>
+
+    <ImageView
+        android:layout_width="253dp"
+        android:layout_height="169dp"
+        android:layout_below="@+id/ll1"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="132dp"
+        android:src="@drawable/iiitblogo" />
+
+
+</RelativeLayout>

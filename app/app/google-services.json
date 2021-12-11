@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "707287710711",
+    "project_id": "bitbrothersdemo",
+    "storage_bucket": "bitbrothersdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707287710711:android:e62890bfc30184805b0cf2",
+        "android_client_info": {
+          "package_name": "com.example.bitbrothersdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707287710711-si02rrhjl2i1mbac1tocasgft0qht2mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuG7HF_h2X-peGvu9GlMmRxmw-lfWDWas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707287710711-si02rrhjl2i1mbac1tocasgft0qht2mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
